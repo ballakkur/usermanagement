@@ -1,0 +1,18 @@
+git simple steps
+
+git init to initialse the repository
+create a .gitignore file to add node_modules/ 
+git add . to add all files 
+git commit -am "name of the commit"
+git remote add origin "link of the github repository"//to be done only once
+git push origin master //password will be asked with username
+
+for pull request
+git init
+git remote add origin http://...
+git pull origin master
+
+//if the file is too large use upstream
+git remote add upstream http://
+git push upstream  (for pushing it to repository)
+git fetch upstream (in case of push)
